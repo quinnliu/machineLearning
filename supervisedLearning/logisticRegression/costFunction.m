@@ -26,14 +26,8 @@ costJ = (-1/numberOfTrainingExamples) * sum( y .* log(hypothesis) + (1 - y) .* l
 % derivatives of the cost w.r.t. each parameter in theta
 
 % compute the gradient 
-for i = 1:numberOfTrainingExamples
-	% hypothesis = mx1 column vector
-	% y = mx1 column vector
-	% X = mxn matrix
-	gradient = gradient + ( hypothesis(i) - y(i) ) * X(i, :)';
+for i=1:length(theta)    
+    gradient(i) = (1/m) * sum((-y + sigmoid(X*theta)).* X(:,i));
 end
-
-% gradient = nx1 column vector
-gradient = (1/numberOfTrainingExamples) * gradient;
 
 end
