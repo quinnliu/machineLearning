@@ -18,22 +18,15 @@ gradient = zeros(size(theta)); % gradient = nx1 column vector (same size as thet
 % X = mxn matrix
 % theta = nx1 column vector
 hypothesis = sigmoid(X*theta); % hypothesis = mx1 column vector
- 
+
 % costJ = single number 
-costJ = (-1/numberOfTrainingExamples) * sum( y .* log(hypothesis) + (1 - y) .* log(1 - hypothesis) );
+costJ = (1/numberOfTrainingExamples)*(-y'*log(hypothesis)-(1-y)'*log(1-hypothesis)); % instead using loop, using vectorized implementation.
+
 
 % Compute the partial derivatives and set gradiant to the partial
 % derivatives of the cost w.r.t. each parameter in theta
-
 % compute the gradient 
-for i = 1:numberOfTrainingExamples
-	% hypothesis = mx1 column vector
-	% y = mx1 column vector
-	% X = mxn matrix
-	gradient = gradient + ( hypothesis(i) - y(i) ) * X(i, :)';
-end
-
 % gradient = nx1 column vector
-gradient = (1/numberOfTrainingExamples) * gradient;
+grad = (1/m)*X'*(hypothesis-y); vectorized implementation.
 
 end
