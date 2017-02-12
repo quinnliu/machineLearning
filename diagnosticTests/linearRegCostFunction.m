@@ -20,7 +20,18 @@ grad = zeros(size(theta));
 %
 
 
+J = sum((X*theta - y).^2)/(2*m);
 
+costRegularizationTerm = lambda/(2*m) * sum( theta(2:end).^2 );
+
+J = J + costRegularizationTerm;
+
+
+grad = X' * (X*theta - y);
+
+
+gradientRegularizationTerm = lambda/m * [0; theta(2:end)];
+grad = (1/m) * grad + gradientRegularizationTerm;
 
 
 
