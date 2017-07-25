@@ -1,5 +1,8 @@
 Machine Learning
 ================
+
+<b>IMPORTANT NOTE</b>: Hi! Q here. Your most likely reading this and really excited about building your own AI. I was too in 2011 when I had a dream of building an AI to solve all of my problems and everyone elses. My most up to date research in AI development can be found in my other github repo [wAlnut](https://github.com/WalnutiQ/wAlnut). 
+
 The majority of the material here was created while taking Andrew Ng's free online 
 [Machine Learning class](https://www.coursera.org/learn/machine-learning) which I highly recommend!
 
