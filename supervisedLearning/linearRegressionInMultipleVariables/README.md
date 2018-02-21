@@ -66,5 +66,5 @@ file you can easily use multi-variable linear regression to predict something yo
          |Normal Equation                        |no need to choose alpha                |slow if n is very large                |
          |                                       |don't need to iterate                  |doesn't work for logistic regression   |
 
-       + General Rule = <b>If # of features is > 10,000 use Normal Equation, otherwise use Gradient Descent</b>
+       + General Rule = <b>If # of features is < 10,000 use Normal Equation, otherwise use Gradient Descent</b>
        + NOTE: the Normal equation is slow on mordern computers in 2013 when n > 10,000 because we need to compute (X^T * X)^-1 which will take O(n^3) time for inversing the matrix. If n > 10^4 then you should use gradient decent instead.
