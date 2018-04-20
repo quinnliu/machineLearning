@@ -1,6 +1,6 @@
 # Machine Learning
 
-<b>LIKE KINDA SUPER IMPORTANT NOTE</b>: Hi! Q here. Your most likely reading this and really excited about building your own AI. I was too in 2011 when I had a dream of building an AI to solve all of humanitie's problems. My most up to date research in artificial general intelligence(AGI) can be found in my other github repo [wAlnut](https://github.com/WalnutiQ/wAlnut). 
+If you take online classes but find it lonely checkout [www.infinity2o.com](https://www.infinity2o.com/)!!!!!
 
 ## Why
 The majority of the material here was created while taking Andrew Ng's free online 
