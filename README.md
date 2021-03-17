@@ -1,7 +1,5 @@
 # Machine Learning
 
-If you take online classes but find it lonely checkout [www.infinity2o.com](https://www.infinity2o.com/)!!!!!
-
 ## Why
 The majority of the material here was created while taking Andrew Ng's free online 
 [Machine Learning class](https://www.coursera.org/learn/machine-learning) which I highly recommend!
