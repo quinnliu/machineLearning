@@ -1,8 +1,11 @@
 # Machine Learning
 
 ## Why
-The majority of the material here was created while taking Andrew Ng's free online 
+The material here was created while taking Andrew Ng's free online 
 [Machine Learning class](https://www.coursera.org/learn/machine-learning) which I highly recommend!
+
+I've also started visualizing other general intelligence models such as hierarchical temporal memory(HTM) & generative vision models(GVM) & 
+visual cognitive computer(VCC) models in 2D & 3D below. 
 
 *"A computer program is said to learn from experience E with respect to some task 
 T and some performance measure P, if its performance on T, as measured by P, improves with experience E."*
@@ -32,3 +35,6 @@ folder
     - [learningWithBackpropagation](./unsupervisedLearning/neuralNetworks/learningWithBackpropagation)
 
 - README.md = the file you are reading right now
+
+## Visualizations of general intelligence models
+
