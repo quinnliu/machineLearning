@@ -38,3 +38,11 @@ folder
 
 ## Visualizations of general intelligence models
 
+### Visualizations of HTM & HTW 
+
+### Visualizations of GVM & VCC 2D 
+
+### Visualizations of VCC 3D with recursive calls 
+
+### Visualizations of VCC 3D with recursive calls + grounded language understanding
+
