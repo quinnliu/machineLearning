@@ -53,8 +53,8 @@ fprintf(' %f \n', theta);
 fprintf('\n');
 
 % Estimate the price of a 1650 sq-ft, 3 br house 
-normalizedSquareFeet = (1650 - mu) / sigma;
-normalizedNumberOfBedrooms = (3 - mu) / sigma;
+normalizedSquareFeet = (1650 - mu(1,1)) / sigma(1,1);
+normalizedNumberOfBedrooms = (3 - mu(1,2)) / sigma(1,2);
 
 % Recall that the first column of X is all-ones. Thus, it does
 % not need to be normalized.
