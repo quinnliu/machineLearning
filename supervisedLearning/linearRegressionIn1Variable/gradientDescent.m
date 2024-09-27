@@ -23,7 +23,7 @@ for iter = 1:numberOfIterations
 
     % errors = mx1 column vector
     % y = mx1 column vector
-    errors = hypothesis .- y;
+    errors = hypothesis - y;
 
     % X_column1 = mx1 column vector
     X_column1 = X(:, 1);
